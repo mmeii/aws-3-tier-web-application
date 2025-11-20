@@ -1,0 +1,8 @@
+aws_region          = "us-east-1"
+aws_profile         = "default"
+project_name        = "three-tier-app"
+environment         = "dev"
+app_instance_type   = "t3.small"
+app_desired_capacity = 2
+alb_ingress_cidrs   = ["203.0.113.0/24", "198.51.100.4/32"]
+db_password         = "changeMe123!"
